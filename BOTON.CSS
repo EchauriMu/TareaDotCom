@@ -170,3 +170,20 @@ button {
    }
   
   
+
+   .btn-saber-mas {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #F2BBBB; /* Color azul moderno */
+    border-radius: 5px; 
+    text-decoration: none; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.btn-saber-mas:hover {
+    background-color: #009087; /* Color más oscuro al pasar el mouse */
+}

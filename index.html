@@ -59,26 +59,32 @@
       </section>
       <img src="icons/tarea.png" alt="Tareas.com" class="logo-image">
       <section class="seccion-calidad">
-        <h3 class="titulo-calidad">CALIDAD GARANTIZADA</h3>
-        <div class="grid-calidad">
-          <div class="item-calidad">
-            <h4 class="subtitulo-calidad">NOSE NO SE NO SE</h4>
-            <p class="descripcion-calidad">Contamos con especializados en diferentes materias, asegurando la calidad de cada tarea realizada.</p>
+          <h3 class="titulo-calidad">CALIDAD GARANTIZADA</h3>
+          <div class="grid-calidad">
+              <div class="item-calidad">
+                  <h4 class="subtitulo-calidad">EXPERTOS EN LA MATERIA</h4>
+                  <p class="descripcion-calidad">Nuestro equipo está compuesto por profesionales especializados en diversas materias, garantizando la calidad en cada tarea que realizamos.</p>
+              </div>
+              <div class="item-calidad">
+                  <h4 class="subtitulo-calidad">APOYO EN TESIS</h4>
+                  <p class="descripcion-calidad">Tu tiempo es valioso. Te ofrecemos asesoramiento rápido y efectivo para que puedas avanzar sin demoras en tus proyectos de tesis.</p>
+                  <a class="btn-saber-mas">Saber más</a>
+              </div>
+              <script>
+                  document.querySelector('.btn-saber-mas').addEventListener('click', function() {
+                      document.getElementById('tesis').scrollIntoView({ behavior: 'smooth' });
+                  });
+              </script>
+              <div class="item-calidad">
+                  <h4 class="subtitulo-calidad">SERVICIO PERSONALIZADO</h4>
+                  <p class="descripcion-calidad">Nos dedicamos a entender tus necesidades específicas, ofreciendo soluciones ajustadas a cada situación y garantizando tu satisfacción.</p>
+              </div>
           </div>
-          <div class="item-calidad">
-            <h4 class="subtitulo-calidad">RESPUESTA RÁPIDA</h4>
-            <p class="descripcion-calidad">Tu tiempo es valioso. Te ofrecemos respuestas rápidas para que no pierdas tiempo esperando.</p>
-          </div>
-          <div class="item-calidad">
-            <h4 class="subtitulo-calidad">SERVICIO PERSONALIZADO</h4>
-            <p class="descripcion-calidad">Nos aseguramos de entender tus necesidades específicas para ofrecerte una solución ajustada a tu situación.</p>
-          </div>
-        </div>
       </section>
+      
 
 
-
-      <section class="tesis">
+      <section id="tesis" class="tesis">
         <div class="cuadrícula">
           <div class="fondo-tarjeta">
           
