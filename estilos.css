@@ -91,6 +91,17 @@ body {
     color: #F2AEBB;
     margin-bottom: 8px;
     text-align: center;
+    margin: 0;
+  }
+
+  
+  .titulo2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F2AEBB;
+    margin-bottom: 8px;
+    text-align: center;
+    margin: 0;
   }
 
   .subtitulo {
@@ -161,7 +172,6 @@ body {
 .item-calidad {
     text-align: center;
     background-color: #ffffff;
-    color: #84D9D9;
     padding:4px 24px 12px 24px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -182,17 +192,17 @@ body {
 
 .logo-image {
   width: 100%;
-  max-width: 200px; /* Ajusta el tamaño máximo de la imagen */
+  max-width: 200px; 
   height: auto;
   display: block;
-  margin: 0 auto; /* Centrar la imagen horizontalmente */
-  background-color: transparent; /* Elimina cualquier fondo de la imagen */
-  border-radius: 50%; /* Si la imagen tiene forma cuadrada, esto la hará circular */
+  margin: 0 auto; 
+  background-color: transparent; 
+  border-radius: 50%;
 }
 /* Estilos básicos para el footer */
 .footer {
     background-color: #F2BBBB;
-    color: #;
+    
     padding: 5px;
     text-align: center;
   }
@@ -232,8 +242,62 @@ body {
     margin-right: 8px; /* Espacio entre el ícono y el texto */
   }
   
-  
+  .cuadrícula {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 26px;
+}
 
+@media (min-width: 640px) {
+    .cuadrícula {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.flexible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.texto-principal {
+    color: #404040;
+}
+
+.texto-muted {
+    color: #737373;
+}
+
+
+.fondo-tarjeta {
+  background-color: #ffffff;
+  color: #121212;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #F2BBBB;
+  transition: all 0.3s ease;
+}
+
+
+
+.img-tesis{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tesis{
+  margin: 2rem;
+}
   
 
 
