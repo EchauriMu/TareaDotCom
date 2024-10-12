@@ -313,6 +313,9 @@ body {
   .seccion-oferta {
     padding: 1rem !important;
   }
+  .contenedor-principal .titulo-principal{
+    font-size: 3rem;
+  }
 }
 
 @media (min-width: 1024px) {
